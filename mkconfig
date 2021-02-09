@@ -1,0 +1,7 @@
+<$HOME/app/mk/inc/config
+PROGNAME = xsel
+INCS = $USRINC $X11INC 
+LIBS = $USRLIB $X11LIB $CLIB
+DEFS = -DVERSION=\"$VERSION\" \
+	-DNAME=\"$NAME\"
+CFILES = main.c
