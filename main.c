@@ -59,9 +59,7 @@ main(int argc, char **argv) {
 			putchar(data[i]);
 		offset += len;
 		free(data);
-	}
-	while(remain);
-	if(offset)
-		putchar('\n');
+	} while(remain) ;
+
 	return 0;
 }
