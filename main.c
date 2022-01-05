@@ -8,7 +8,7 @@
 #include <X11/Xutil.h>
 #include <sl/arg.h>
 
-static char *argv0;
+char *argv0;
 
 static Display *dpy;
 static Atom seltype = XA_PRIMARY ;

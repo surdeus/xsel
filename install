@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mk install
+exec mk install
 

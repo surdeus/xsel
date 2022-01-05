@@ -1,4 +1,6 @@
 <$HOME/app/mk/inc/config
+CC = cc
+LD = $CC
 PROGNAME = xsel
 INCS = $USRINC $X11INC -I$INCDIR
 LIBS = $USRLIB $X11LIB $CLIB $XMULIB
