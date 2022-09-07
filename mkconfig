@@ -1,9 +1,10 @@
-<$HOME/app/mk/inc/config
-CC = cc
-LD = $CC
+MKSHELL = sh
+MKINCDIR = $(MKINCDIR)
+<$MKINCDIR/config
 PROGNAME = xsel
 INCS = $USRINC $X11INC -I$INCDIR
 LIBS = $USRLIB $X11LIB $CLIB $XMULIB
 DEFS = -DVERSION=\"$VERSION\" \
 	-DNAME=\"$NAME\"
 CFILES = main.c
+HFILES =
